@@ -16,6 +16,7 @@ RUN apt-get update \
       curl \
       unzip \
       jq \
+      busybox \
       gettext-base \
  && rm -rf /var/lib/apt/lists/*
 
